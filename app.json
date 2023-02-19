@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "app.easyWeather",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75578111-ddb2-418f-9458-96dfa1b0f7c2"
+      }
     }
   }
 }
